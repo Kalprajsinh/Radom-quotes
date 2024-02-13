@@ -1,0 +1,29 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.quote-container {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #313496;
+  border-radius: 8px;
+  background-color: #6188ff;
+}
+
+.button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: #313496;
+  color: white;
+}
